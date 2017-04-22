@@ -13,3 +13,7 @@ Example python scripts
 3. database_connection.py
 	Wrote quick script to brush up database operations with python
 
+4. artwithturtle.py
+	Fun program to draw some cool art
+	Part of exercise from Udacity's Python course
+
