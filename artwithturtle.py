@@ -37,15 +37,28 @@ def main():
 	myTurtle.shape("turtle")
 	myTurtle.color("#9ACD32")
 
+	for i in range(13):
+		draw_circle(myTurtle)
+		myTurtle.right(30)
+
+	window.clear()
+	myTurtle.reset()
+
+
 	for i in range(19):
 		draw_square(myTurtle)
 		myTurtle.right(20)
 
 	window.clear()
+	myTurtle.reset()
 
-	for i in range(38):
+	window.bgcolor("#FFFAF0")
+	myTurtle.shape("turtle")
+	myTurtle.color("#48D1CC")
+	for i in range(39):
 		draw_rhombus(myTurtle)
 		myTurtle.right(10)
+
 
 #	draw_circle(myTurtle)
 #	draw_triangle(myTurtle)
